@@ -1,0 +1,6 @@
+1. Install Docker on Ubuntu via the following URL
+https://docs.docker.com/engine/install/ubuntu/
+
+2. The following command can be used to build a custom image
+
+sudo docker build -t sqlapp .

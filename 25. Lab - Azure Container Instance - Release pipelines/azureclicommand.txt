@@ -1,0 +1,1 @@
+az container create -g devops-grp --name appinstance20030 --cpu 1 --memory 1  --ports 80 --ip-address Public --image registry57767.azurecr.io/sqlappdocker:latest --registry-username registry57767 --registry-password XeVWwKmmKD2IAS34A8B8i7E+MWJlneju

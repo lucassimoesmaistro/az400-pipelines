@@ -1,0 +1,14 @@
+1. Install the Azure CLI via the following URL
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+
+2. First log into the Azure container registry
+
+sudo az acr login --name appregistry300030 --username appregistry300030 --password
+
+3. Then tag your image
+
+sudo docker tag sqlapp appregistry300030.azurecr.io/sqlapp
+
+4. Then push the image to the Azure Container registry
+
+sudo docker push appregistry300030.azurecr.io/sqlapp
