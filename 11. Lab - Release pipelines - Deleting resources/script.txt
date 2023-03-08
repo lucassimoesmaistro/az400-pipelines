@@ -1,0 +1,7 @@
+az resource delete -g template-grp -n "sqlserver700505/appdb" --resource-type "Microsoft.Sql/servers/databases"
+
+az resource delete -g template-grp -n "sqlserver700505" --resource-type "Microsoft.Sql/servers"
+
+az resource delete -g template-grp -n newapp994848 --resource-type "Microsoft.Web/sites"
+
+az resource delete -g template-grp -n plan787878 --resource-type "Microsoft.Web/serverfarms"
